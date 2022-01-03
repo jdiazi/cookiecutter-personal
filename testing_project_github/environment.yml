@@ -1,0 +1,16 @@
+name: testing_project_github
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - pip
+  - pyprojroot
+  - python=3.7
+  - pip:
+    - pyhere
+    
